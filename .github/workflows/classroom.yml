@@ -15,7 +15,7 @@ jobs:
       uses: actions/checkout@v4
       
     - name: Install dependencies
-      run: pip install pytest
+      run: pip install -r requirements.txt
 
     - name: test_session8
       run: pytest
